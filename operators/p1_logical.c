@@ -1,0 +1,92 @@
+# include<stdio.h>
+
+
+// void main()
+// {
+// 	int x = 5;
+// 	int y = 7;
+// 	int z = 0;
+// 	int ans;
+// 	int out;
+	
+// 	ans = x || y;
+// 	out = x && z;
+
+// 	printf("%d\n", ans);
+// 	printf("%d\n", out);
+
+// }
+
+// void main (){
+// 	int x = 0;
+// 	int y = 5;
+// 	int ans;
+
+// 	ans = x++ || ++y;
+// 	printf("%d\n", ans);
+// 	printf("%d\n", x);
+// 	printf("%d\n", y);
+
+// 	ans = x++ && ++y;
+// 	printf("%d\n", ans);
+// 	printf("%d\n", x);
+// 	printf("%d\n", y);
+// }
+
+
+// void main (){
+// 	int x = 0;
+// 	int y = 5;
+// 	int ans;
+
+// 	ans = x++ || --x;
+// 	printf("%d\n", ans);
+// 	printf("%d\n", x);
+// 	printf("%d\n", y);
+
+// 	ans = x && --y;
+// 	printf("%d\n", ans);
+// 	printf("%d\n", x);
+// 	printf("%d\n", y);
+// }
+
+
+void main (){
+	int x = 1;
+	int y = 5;
+	int ans;
+
+	ans = --x || --x;
+	printf("%d\n", ans);
+	printf("%d\n", x);
+	printf("%d\n", y);
+
+	ans = ++x && --y;
+	printf("%d\n", ans);
+	printf("%d\n", x);
+	printf("%d\n", y);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
